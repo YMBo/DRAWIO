@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T14:29:06.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AKPOUwIGi3uea0zapCYz" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T13:32:34.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hTPO7wqvez-up9rdL5mq" version="20.5.1" type="github" pages="3">
   <diagram id="tn5BtrbcUPYBZDwmzHtb" name="proxy数据反转逻辑">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,6 +340,44 @@
         </mxCell>
         <mxCell id="_PRL4u7SL-qGdktQBT63-28" value="消费getPlugin" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;sketch=1;hachureGap=4;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2210" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="akruizErnr0pmCOQHscz" name="按需代理">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SPzexXkbsdoYw5M00Da6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fontFamily=Garamond;fontSize=15;fontColor=#1D3557;fillColor=#A8DADC;labelBackgroundColor=#F1FAEE;sketch=1;curved=1;" edge="1" parent="1" source="JaZyJr0EtNldZCpFg7Ad-1" target="SPzexXkbsdoYw5M00Da6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fontFamily=Garamond;fontSize=15;fontColor=#1D3557;fillColor=#A8DADC;labelBackgroundColor=#F1FAEE;sketch=1;curved=1;" edge="1" parent="1" source="JaZyJr0EtNldZCpFg7Ad-1" target="SPzexXkbsdoYw5M00Da6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaZyJr0EtNldZCpFg7Ad-1" value="draft.name.age = 1000" style="rounded=0;whiteSpace=wrap;hachureGap=4;jiggle=2;strokeColor=#457B9D;fontFamily=Garamond;fontSize=15;fontColor=#1D3557;fillColor=#A8DADC;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-19" value="draft" style="swimlane;sketch=1;hachureGap=4;jiggle=2;fontFamily=Garamond;fontSize=20;fillColor=#A8DADC;strokeColor=#457B9D;fontStyle=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="175" y="170" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-12" value="fan" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;hachureGap=4;jiggle=2;sketch=1;" vertex="1" parent="SPzexXkbsdoYw5M00Da6-19">
+          <mxGeometry x="220" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-17" value="{ 	zz:  	333 	}" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;hachureGap=4;jiggle=2;sketch=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="SPzexXkbsdoYw5M00Da6-19">
+          <mxGeometry x="225" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="SPzexXkbsdoYw5M00Da6-19" source="SPzexXkbsdoYw5M00Da6-12" target="SPzexXkbsdoYw5M00Da6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-11" value="name" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;hachureGap=4;jiggle=2;sketch=1;" vertex="1" parent="SPzexXkbsdoYw5M00Da6-19">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-15" value="{ 	age: 	333 	}" style="whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;fillColor=#A8DADC;strokeColor=#457B9D;rounded=0;hachureGap=4;jiggle=2;sketch=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#1D3557;" vertex="1" parent="SPzexXkbsdoYw5M00Da6-19">
+          <mxGeometry x="25" y="180" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPzexXkbsdoYw5M00Da6-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="SPzexXkbsdoYw5M00Da6-19" source="SPzexXkbsdoYw5M00Da6-11" target="SPzexXkbsdoYw5M00Da6-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
